@@ -26,20 +26,21 @@ return {
                     teal = "#00f0d9",
                     sky = "#00d3ec",
                     sapphire = "#00adfa",
-                    blue = "#0069f8",
-                    lavender = "#0404FF",
-                    text = "#d14500",
+                    blue = "#0069f8", -- fn text
+                    lavender = "#7a34eb",
+                    text = "#ff9100",
                     subtext1 = "#bcc2d7",
                     subtext0 = "#a6adc8",
                     overlay2 = "#9399b2",
                     overlay1 = "#7f849c",
                     overlay0 = "#6c7086",
                     surface2 = "#a31c59",
-                    surface1 = "#4000c5",
-                    surface0 = "#3f196f",
+                    surface1 = "#4000c5", -- highlighting 
+                    surface0 = "#3f196f", -- line select bar
                     base = "#000000",
                     mantle = "#000000",
-                    crust = "#000000",
+                    crust = "#aaaaaa", -- things like the seperation lines.  Also, the background of the tabs.
+                    -- This does look bad at the tabs, so can probably make it softer.
                 },
             },
             lsp_styles = {
